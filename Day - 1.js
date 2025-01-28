@@ -1,3 +1,6 @@
+
+>>> ----- Concept ----- <<<
+
 console.log("Hello Hi")
 
 // normal function
@@ -60,6 +63,17 @@ var NumSum = f5();
 console.log(NumSum(5,9))
 
 console.log("TaTa ByeBye")
+
+
+>>> ----- Day - 1 solution ----- <<<
+
+function createHelloWorld(){
+
+    return function f()
+    {
+        return "Hello World"
+    }
+}
 
 
 
