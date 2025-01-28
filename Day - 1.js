@@ -34,22 +34,32 @@ let f4 = (a,b) => {
 } 
 console.log(f4(7,5))
 
-console.log("TaTa ByeBye")
 
 // function within function
 
+function f5(){
+	function add(a,b){
+  	const sum = a + b
+    return sum
+  }
+  return add
+  /*
+  return function add(a,b){
+  	const sum = a + b
+    return sum
+  }
+  OR
+  return function(a,b){
+  	const sum = a + b
+    return sum
+  }
+  */
+}
 
+var NumSum = f5();
+console.log(NumSum(5,9))
 
-
-
-
-
-
-
-
-
-
-
+console.log("TaTa ByeBye")
 
 
 
