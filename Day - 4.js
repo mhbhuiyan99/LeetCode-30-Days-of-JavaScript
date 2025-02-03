@@ -1,5 +1,4 @@
 var createCounter = function(init) {
-    
     let x = init;
     return {
         increment(){
