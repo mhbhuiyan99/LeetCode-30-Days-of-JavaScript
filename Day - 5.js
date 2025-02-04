@@ -61,7 +61,6 @@ index: It is an optional parameter and it holds the index of the current element
 arr: It is an optional parameter and it holds the array.
 */
 
-
 Solution
 
 var map = function(arr, fn) {
